@@ -1,0 +1,43 @@
+:root{
+    --main-color:#12153c;
+    --color-topLetter:#d8bd08;
+}
+/* start Why choose ads */
+.container .heading span:first-child{
+color: var(--color-topLetter);
+}
+.container .heading h2:nth-child(2),.container .heading p:nth-child(3){
+    color: var(--main-color);
+}
+.container .row .card-body{
+    background-color: var(--main-color);
+}
+/* end Why choose ads */
+/* start Contact Us */
+.ContactUs{
+   background-color: #f3f2f2;
+}
+.ContactUs .container .row span {
+    color: var(--color-topLetter);
+}
+.ContactUs .container .row h2 ,.ContactUs .container .row p{
+    color: var(--main-color);
+}
+.ContactUs .container .row .bg-f{
+    background-color: var(--main-color);
+    border-radius: 50px;
+}
+::placeholder{
+    color: var(--color-topLetter) !important;
+}
+.ContactUs input , textarea{
+    color: darkgray !important;
+}
+.ContactUs button{
+    transition: 1s;
+}
+.ContactUs button:hover{
+    background-color: var(--color-topLetter) !important;
+    color: white ;
+}
+/* end Contact Us */
